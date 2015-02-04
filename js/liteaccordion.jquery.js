@@ -401,7 +401,7 @@
                 if (instance) return;
 
                 // otherwise create a new instance
-                liteAccordion = new LiteAccordion(elem, method);
+                liteAccordion = new LiteAccordion($(this), method);
                 elem.data('liteAccordion', liteAccordion);
             });
 
